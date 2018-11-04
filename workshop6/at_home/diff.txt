@@ -1,0 +1,10 @@
+
+In line number 104 of your output:
+The output should be:
+Enter vehicle ID: 125
+But your output is: 
+Enter vehivle ID: 125
+          ^
+----------|
+Professor's character ASCII code: hex(63), dec(99)
+un-matched character ASCII code: hex(76), dec(118)

@@ -1,0 +1,6 @@
+1. The advantages of using an array of structs is that when you use parallel 
+arrays and want to add one field, you must add another array. Otherwise, when 
+you use array od structs you just have to declare another variable in the struct
+part.
+2. Because we declare our variable globally, we can use it anytime we need in
+our program.

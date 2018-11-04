@@ -1,0 +1,9 @@
+1. A function is a series of code for a specific task. It helps programmers 
+separate a big problem into small programs. It makes program easy to use
+many times and understand.
+2. They helps me not to repeat coding over and over for the same task. They 
+can also use for different situation (different numbers).
+3. To receive data from fuction, we can use a variable that has the same type
+with the fuction and let that variable equal to that function. To send data to 
+function, we can define the value that we need first and the replace the 
+argument with that value when we call that function.

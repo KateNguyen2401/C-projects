@@ -1,0 +1,11 @@
+1. The arrays in this program have to be declared to hold 10 elements because 
+the maximum number of days is 10. Therefore, that is not necessary to have more 
+than 10 elements.
+
+2. The advantage of using matching arrays is that we can use a single name to
+represent datas that have the same type. The disadvantage is that we have to 
+be careful and know clearly the number of elements in the array
+
+3. The at home portion of this workshop is just right. Because it shows me how
+to use many loops at the same time but it is not too difficult or too complex 
+to use these loops. 

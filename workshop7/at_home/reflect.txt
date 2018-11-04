@@ -1,0 +1,9 @@
+1. When passing values from a function through its parameters, it can return
+many values at one time but through its return value, it just can return one
+value at one time. In addition, we can change the value anywhere we want in
+our program.
+2. The term dereference prefer to * operator to access the value that being 
+stored at a memory address. For axample, in decompose function, i used *a to
+access to the value stored at the address of area in the main function.
+3. A pointer variable is stored an address that store the value of the 
+variable that it point to.

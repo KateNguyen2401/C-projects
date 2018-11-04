@@ -1,0 +1,76 @@
+Script started on Fri 07 Jul 2017 09:18:56 AM EDT
+amhnguyen@matrix:~/IPC144/w7/in_lab> ws
+---=== Phone Numbers ===---
+
+1. Display Phone List
+2. Add a Number
+0. Exit
+
+Please select from the above options: 1
+
+Phone Numbers
+==============
+
+1. Display Phone List
+2. Add a Number
+0. Exit
+
+Please select from the above options: 2
+
+Add a Number
+============
+4164915050
+
+1. Display Phone List
+2. Add a Number
+0. Exit
+
+Please select from the above options: 2
+
+Add a Number
+============
+9052301212
+
+1. Display Phone List
+2. Add a Number
+0. Exit
+
+Please select from the above options: 2
+
+Add a Number
+============
+6475551212
+
+1. Display Phone List
+2. Add a Number
+0. Exit
+
+Please select from the above options: 1
+
+Phone Numbers
+==============
+(416)-491-5050
+(905)-230-1212
+(647)-555-1212
+
+1. Display Phone List
+2. Add a Number
+0. Exit
+
+Please select from the above options: 2
+
+Add a Number
+============
+ERROR!!! Phone Number List is Full
+
+1. Display Phone List
+2. Add a Number
+0. Exit
+
+Please select from the above options: 0
+
+Exiting Phone Number App. Good Bye!!!
+amhnguyen@matrix:~/IPC144/w7/in_lab> exit
+exit
+
+Script done on Fri 07 Jul 2017 09:19:45 AM EDT
