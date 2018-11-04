@@ -1,0 +1,10 @@
+
+In line number 121 of your output:
+The output should be:
+Only (Y)es or (N)o are acceptable: n
+But your output is: 
+Only (Y)es or (N)o are accepted: n
+                             ^
+-----------------------------|
+Professor's character ASCII code: hex(61), dec(97)
+un-matched character ASCII code: hex(65), dec(101)

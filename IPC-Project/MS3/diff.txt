@@ -1,0 +1,10 @@
+
+In line number 188 of your output:
+The output should be:
+--== Checked out! ==--
+But your output is: 
+--== Checkout! ==--
+          ^
+----------|
+Professor's character ASCII code: hex(65), dec(101)
+un-matched character ASCII code: hex(6f), dec(111)

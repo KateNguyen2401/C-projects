@@ -1,0 +1,10 @@
+
+In line number 74 of your output:
+The output should be:
+2   |386|Watermelon          |    5.99|   No|  20 |   4 |      119.80|
+But your output is: 
+
+^
+|
+Professor's character ASCII code: hex(32), dec(50)
+un-matched character ASCII code: hex(d), dec(13)
