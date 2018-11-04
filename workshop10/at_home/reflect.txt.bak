@@ -1,0 +1,5 @@
+1. A C-style string is the same as an arrays of chars but C-style string has
+a terminator element called null terminator '\0'.
+2. Format string: %9[^\n]
+3. Because 
+4. I need at least 7 bytes to store the result.

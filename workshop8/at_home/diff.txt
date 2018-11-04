@@ -1,0 +1,10 @@
+
+In line number 31 of your output:
+The output should be:
+Quantity:3
+But your output is: 
+Title:
+^
+|
+Professor's character ASCII code: hex(51), dec(81)
+un-matched character ASCII code: hex(54), dec(84)

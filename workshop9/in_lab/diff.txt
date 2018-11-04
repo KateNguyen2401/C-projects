@@ -1,0 +1,10 @@
+
+In line number 9 of your output:
+The output should be:
+4) Calculate total capital of the store.
+But your output is: 
+4) Calculate total capital of he store.
+                              ^
+------------------------------|
+Professor's character ASCII code: hex(74), dec(116)
+un-matched character ASCII code: hex(68), dec(104)

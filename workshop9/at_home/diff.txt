@@ -1,0 +1,10 @@
+
+In line number 6 of your output:
+The output should be:
+1) Display the inventory.
+But your output is: 
+ 1) Display the inventory.
+^
+|
+Professor's character ASCII code: hex(31), dec(49)
+un-matched character ASCII code: hex(20), dec(32)

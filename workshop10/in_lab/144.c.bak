@@ -1,0 +1,55 @@
+#define _CRT_SECURE_NO_WARNINGS
+#include <stdio.h>
+#include <string.h>
+int isJediMaster(const char name[]) {
+  int isJedi = 0;
+  char jedi_name[31];
+  FILE *fp = NULL;
+  fp = fopen("jedi_master.txt", "r");
+
+  if (fp != NULL) {
+		  while (fscanf(fp, "%[^\n]%*c", jedi_name) == 1) {
+			  if (strcmp(jedi_name, name) == 0) {
+				  isJedi = 1;
+			  }
+		  }
+
+	  fclose(fp);
+  }
+  else {
+	  printf("Could not open the file\n");
+  }
+  return isJedi;
+}
+
+void formatJediPhoneRecord(char formattedRecord[], const char fullName[], const char npa[], const char co[], const char number[]) {
+	int i,namelen,check=0;
+	char temp[20];
+	char originalName[45];
+	strcpy(originalName,fullName);
+
+
+	namelen = strlen(originalName);
+	check = isJediMaster(originalName);
+	if (namelen > 16) {
+		strncpy(temp, originalName, 14);
+		temp[14] = '\0';
+		strcpy(originalName, temp);
+		strcat(originalName, "..");
+	}
+	else {
+		for (i = 0; i < 16 - namelen; i++) {
+			strcat(originalName, " ");
+		}
+	}
+	strcpy(formattedRecord, originalName);
+	strcat(formattedRecord, " (");
+	strcat(formattedRecord, npa);
+	strcat(formattedRecord, ") ");
+	strcat(formattedRecord, co);
+	strcat(formattedRecord, "-");
+	strcat(formattedRecord, number);
+	if (check == 1) {
+		strcat(formattedRecord, " Jedi Master");
+	}
+}

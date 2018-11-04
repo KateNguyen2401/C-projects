@@ -1,0 +1,12 @@
+1. The function readRecord can return the values from 0 to 5. It represents the 
+number that it counts when it scans and assigns the value to each variable.
+2. When opening a file in r mode, it just opens the file to read but not create
+or allow to write in the file. In w mode, it just creates a new file with the
+given name and write in the file. If the file is already exists, it will 
+overwrite the file. In a+ mode, it creates a file if it doesn't exist, we can
+also read from the file and write in the end of the same file withou overwriting
+if the file exits.
+3. When reading data from a file, we can open the file and write many values as
+we want at one time and use it when we have to display or calculate. But in when
+reading data from user input, we have to scan the value for each varible and for each 
+array.

@@ -1,0 +1,16 @@
+1. When passing an array to a function by address, it means that we pass the 
+address where the variable is stored but not itself. We can also change the value of address
+in that function without returning.
+   When passing an array to a function by value, it means that we copy the value
+of the variable in the memory to the parameter in the function that we assign 
+that value to. And we cannot change it unless we return that value back at the 
+end of the function.
+2. Because it helps us for the logic of the program. For example, in my 
+workshop, I use variable "size". First in the main function, I assign it with 0
+and then if I add a book, it will increase by 1 for the next time until it's
+full. Finally, in both the display function and check price function, it will
+help me to search and display the exactly number book i added before without any different
+empty index.
+3. Because in some function we don't want to change the value of the "const" 
+array parameters. But in others, we want to change the value of the array 
+parameters.
