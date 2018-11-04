@@ -1,0 +1,9 @@
+1. All the iteration constructs are: for, while, do-while.
+
+2. The difference between a "do-while" and a "while" loop is that a "while"
+loop checks the condition initally and then excutes. But a "do-while" loop 
+executes the body atleast once even if the condition is false.
+
+3. Conditional expression is a feature of programming language. It depends on 
+specific conditions to show that it is true or false and then do the 
+calculation   
